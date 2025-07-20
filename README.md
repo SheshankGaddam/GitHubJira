@@ -27,7 +27,17 @@ This project demonstrates an end-to-end automation between **GitHub** and **Atla
 ├── github_Jira.py
 └── README.md
 ---
+## 🔑 Prerequisites
 
+Before running this project, you must create an **API token** in Jira. Here's how:
+
+1. Go to [https://id.atlassian.com/manage/api-tokens](https://id.atlassian.com/manage/api-tokens)
+2. Click **Create API Token**
+3. Enter a label (e.g., *GitHub-Jira Integration*) and click **Create**
+4. Copy the token shown (you won’t see it again!)
+5. Use your Atlassian account email + this token as credentials for all Jira API calls in the Python script
+
+---
 ## ✅ Endpoints
 
 | Endpoint       | Triggered By                  | Description                          |
