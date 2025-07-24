@@ -90,6 +90,22 @@ Logs all failed API responses from Jira with context
 
  GitHub label → Jira label syncing
 
+ ## References:
+ Referred Jira Documentations for Integration: https://developer.atlassian.com/cloud/jira/platform/rest/v3/intro/#about
+ 
+ ## Working Prototype (Screenshot):
+
+ Whenever an issue is created in GitHub as shown below:
+
+<img width="1247" height="770" alt="image" src="https://github.com/user-attachments/assets/62591cbf-493c-4c6c-8576-e330dd4ecc7a" />
+
+Respective JIRA will be created with the same title GitHub Issue created with. Also comment provided in the GitHub issue will also be pushed to JIRA as shown below.
+
+<img width="1156" height="947" alt="image" src="https://github.com/user-attachments/assets/79932eb7-9794-45ac-ae2d-b5205466678e" />
+
+
+This whole E2E automation completed in less than a second.
+
 👨‍💻 Author
 Sai Sheshank Gaddam
 📧 gsaisheshank@gmail.com
